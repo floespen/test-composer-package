@@ -1,0 +1,12 @@
+{
+    "name": "fed/test-composer-package",
+    "description": "just atest",
+    "type": "composer-plugin",
+    "authors": [
+        {
+            "name": "Florian Espenschied",
+            "email": "f.espenschied@imi.de"
+        }
+    ],
+    "require": {}
+}
