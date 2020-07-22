@@ -1,6 +1,6 @@
 {
     "name": "fed/test-composer-package",
-    "description": "just atest",
+    "description": "just a test",
     "type": "composer-plugin",
     "authors": [
         {
@@ -13,7 +13,7 @@
     },
     	"autoload" : {
     	"psr-0" : {
-    	"TestComposerPackage" : "src/"
+    	  "TestComposerPackage" : "src/"
    	 	}
    	 }
 }
