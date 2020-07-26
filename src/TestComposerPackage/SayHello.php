@@ -1,9 +1,9 @@
 <?php
-namespace TestComposerPackage;
+namespace TestComposerPackage\TestComposerPackage;
 class SayHello
 {
     public static function world()
     {
-        return 'Hello World, Composer!'. PHP_EOL;
+        echo 'Hello World, Composer!'. PHP_EOL;
     }
 }
