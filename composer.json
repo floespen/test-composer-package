@@ -1,19 +1,25 @@
 {
-    "name": "fed/test-composer-package",
-    "description": "just a test",
-    "type": "composer-plugin",
-    "authors": [
-        {
-            "name": "Florian Espenschied",
-            "email": "f.espenschied@imi.de"
-        }
-    ],
-    "require": {
-     	"php": ">=7.4.0"
-    },
-    	"autoload" : {
-    	"psr-0" : {
-    	  "TestComposerPackage" : "src/"
-   	 	}
-   	 }
+	"name": "fed/test-composer-package",
+		"description": "just a test",
+		"type": "composer-plugin",
+		"authors": [
+		{
+			"name": "Florian Espenschied",
+			"email": "f.espenschied@imi.de"
+		}
+		],
+		"require": {
+			"php": ">=7.4.0"
+		},
+		"autoload" : {
+			"psr-0" : {
+				"TestComposerPackage" : "src/"
+			}
+		},
+		"scripts": {
+			"test": "phpunit"
+		},
+	"require-dev": {
+		"phpunit/phpunit": "^7"
+	}
 }
