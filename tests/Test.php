@@ -2,12 +2,13 @@
 
 namespace TestComposerPackage\Test;
 
+use PHPUnit\Framework\TestCase;
 use TestComposerPackage\TestComposerPackage\SayHello;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
 
-class Test extends \PHPUnit\Framework\TestCase
+class Test extends TestCase
 {
 
 	public function testHello()
